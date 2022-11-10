@@ -1,0 +1,74 @@
+/* REGOLE GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding-top: 40px;
+}
+h1 {
+    color: #e34f8d;
+    font-family: 'Fredoka', sans-serif;
+}
+.init-p {
+    color: black;
+    margin-top: 30px;
+   /* font-family: 'Fredoka', sans-serif;*/
+}
+.general {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+/* MAIN + CARDS */
+.clearflix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+main {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.card {
+    height: 90px;
+    float: left;
+    margin-top: 28px;
+    width: calc(100%/ 3);
+    background-color: black;
+    border-right: 8px solid white;
+}
+.imag {
+    width: 29.5%;
+    height: 90px;
+    float: left;
+    margin-right: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.name {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 13px;
+    font-weight: bold;
+}
+
+.work /*contenuto card */ {
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Fredoka', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #53b6e2;
+    font-family: 'Fredoka', sans-serif;
+}
